@@ -1,0 +1,11 @@
+/* Card CSS  */
+.shadowStyle{
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.shadowStyle:hover {
+  box-shadow: 0 0 12px gray;
+  transform: translateY(-4px);
+
+}

@@ -1,0 +1,36 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label{
+    font-size: larger;
+    font-style: bold;
+    cursor: pointer;
+}
+
+form input ,textarea{
+    border: 2px gray solid;
+    width: 50vw;
+}
+
+/* map responsiveness */
+
+.response_map{
+    overflow: hidden;
+    height: 0;
+    padding-bottom: 30%;
+    position: relative;
+}
+
+.response_map iframe{
+    border: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: -1;
+}
