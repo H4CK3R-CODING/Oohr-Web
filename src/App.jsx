@@ -10,9 +10,9 @@ function App() {
   return (
     <>
 
-      <Navbar/>
-      <Home/>
-      <Contact/>
+      {/* <Navbar/> */}
+      {/* <Home/> */}
+      {/* <Contact/> */}
       <Footer/>
       {/* <Routes>
         <Route path="/" element={<Home />} />
