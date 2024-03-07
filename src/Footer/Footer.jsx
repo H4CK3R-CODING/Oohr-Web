@@ -25,14 +25,14 @@ const Footer = () => {
   ];
   return (
     <div>
-      <div className="bg-[#485664] mt-4 py-6 flex justify-evenly">
-        {data.map((e) => {
-          return <FooterCol data={e} />;
+      <div className="bg-[#485664] py-6 flex justify-evenly">
+        {data.map((e,idx) => {
+          return <FooterCol data={e} key={idx}/>;
         })}
         <Socail />
       </div>
       <div className="bg-[#3a4753] h-20 flex justify-evenly items-center">
-        <p className="text-white">&copy; Copyright <span></span>.All Rights Reserved</p>
+        <p className="text-white">&copy; Copyright <span className="font-semibold">OOHR INTELLECTUAL RESEARCH.</span> All Rights Reserved</p>
       </div>
     </div>
   );

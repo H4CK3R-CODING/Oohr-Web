@@ -17,13 +17,18 @@ const ContactForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(form);
+    // console.log(form);
   };
 
   return (
-    <div className="flex items-center justify-center flex-col">
+    <div className="flex items-center justify-center flex-col" data-aos="fade-left" data-aos-duration="1500">
       <h1 className="text-4xl font-semibold ">Feedback Form</h1>
-      <form method="post" action="#" onSubmit={handleSubmit} className="w-1/2">
+      <form
+        method="post"
+        action="#"
+        onSubmit={handleSubmit}
+        className="w-1/2 py-6"
+      >
         <div className="my-2">
           <div>
             <label htmlFor="name">Name:</label>
@@ -75,7 +80,12 @@ const ContactForm = () => {
             onChange={handleInput}
           ></textarea>
         </div>
-        <button type="submit" className="bg-blue-600 w-32 h-8 rounded-lg font-semibold text-white mt-5">Submit</button>
+        <button
+          type="submit"
+          className="bg-blue-600 w-32 h-10 rounded-lg font-semibold text-white mt-5"
+        >
+          Submit
+        </button>
       </form>
     </div>
   );
