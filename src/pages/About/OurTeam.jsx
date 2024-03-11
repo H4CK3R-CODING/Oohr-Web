@@ -65,12 +65,18 @@ const OurTeam = () => {
     },
   ];
   return (
-    <div className="flex flex-wrap justify-evenly items-center py-8" data-aos="fade-right"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine">
-      {team.map((member,idx) => {
-        return <ImageSec member={member} key={idx}/>;
-      })}
+    <div className="p-4">
+      <h1 className="text-4xl font-semibold text-center">Our Team</h1>
+      <div
+        className="flex flex-wrap justify-evenly items-center py-8"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        {team.map((member, idx) => {
+          return <ImageSec member={member} key={idx} />;
+        })}
+      </div>
     </div>
   );
 };

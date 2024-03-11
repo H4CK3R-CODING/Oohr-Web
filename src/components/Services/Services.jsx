@@ -4,17 +4,22 @@ import data from "../../utils/Services";
 
 const Services = () => {
   return (
-    <div className="flex flex-wrap justify-evenly items-center pb-20" data-aos="fade-right"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine">
-      {data[0].patents.map((ele,idx)=>{
-        return <Card data={ele} key={idx}/>
+    <div
+      id="services"
+      className="flex flex-wrap justify-evenly items-center pb-20"
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
+      <h1 className="block w-full text-center mt-6 font-semibold text-4xl">Our Services</h1>
+      {data[0].patents.map((ele, idx) => {
+        return <Card data={ele} key={idx} />;
       })}
-      {data[1].solutions.map((ele,idx)=>{
-        return <Card data={ele} key={idx}/>
+      {data[1].solutions.map((ele, idx) => {
+        return <Card data={ele} key={idx} />;
       })}
-      {data[2].patentDoubleHeading.map((ele,idx)=>{
-        return <Card data={ele} key={idx}/>
+      {data[2].patentDoubleHeading.map((ele, idx) => {
+        return <Card data={ele} key={idx} />;
       })}
     </div>
   );

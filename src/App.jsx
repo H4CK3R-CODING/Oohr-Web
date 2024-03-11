@@ -13,6 +13,12 @@ import Services from "./components/Services/Services";
 import ServicePage from "./pages/Service/ServicePage";
 import About from "./pages/About/About";
 import AllService from "./utils/Services"
+import Domains from "./pages/Domains/Domains";
+import Solutions from "./pages/Solutions/Solutions";
+import useSolutions from "./hooks/useSolutions";
+// import Solution from "./components/Solution/Solution";
+
+
 
 function App() {
   useEffect(() => {
@@ -20,6 +26,8 @@ function App() {
       duration: 1200,
     });
   }, []);
+
+  // const { solutions } = useSolutions();
   return (
     <>
 
@@ -35,8 +43,20 @@ function App() {
         {AllService[2].patentDoubleHeading.map((ele, idx)=>{
           return <Route path={`${ele.path}`} element={<ServicePage content={ele}/>} key={idx}/>
         })}
-        <Route path="/service" element={<Services/>}/>
+        {/* <Route path="/service" element={<Services/>}/> */}
         <Route path="/about" element={<About />} />
+        <Route path="/domains" element={<Domains />} />
+
+
+
+        {/* Solutions are include in the Services Portion */}
+        {/* <Route path="/solutions" element={<Solutions />} /> */}
+        {/* {solutions.map((ele,idx)=>{
+          return <Route path={`${ele.path}`} element={<Solution solution={ele}/>} key={idx}/>
+        })} */}
+
+
+
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer/>

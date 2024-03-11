@@ -13,13 +13,13 @@ const Navbar = () => {
       <div>
         <ul className="navi flex list-none justify-center items-center">
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#" className="flex items-center justify-center">
-              Services <MdOutlineArrowDropDown />
+            <a href="/#services" className="flex items-center justify-center">
+            Services {/* <MdOutlineArrowDropDown /> */}
             </a>
-            <div className="dropdown_menu">
+            {/* <div className="dropdown_menu">
               <ul>
                 <li>
                   <a href="#" className="flex items-center justify-center">
@@ -94,13 +94,13 @@ const Navbar = () => {
                   </div>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </li>
           <li>
-            <a href="#" className="flex items-center justify-center">
-              About Us <MdOutlineArrowDropDown />
+            <a href="/about" className="flex items-center justify-center">
+              About Us {/* <MdOutlineArrowDropDown /> */}
             </a>
-            <div className="dropdown_menu">
+            {/* <div className="dropdown_menu">
               <ul>
                 <li>
                   <a href="#">Who We Are</a>
@@ -115,19 +115,19 @@ const Navbar = () => {
                   <a href="#">Careers</a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </li>
           <li>
-            <a href="#">Domains</a>
+            <a href="/domains">Domains</a>
           </li>
-          <li>
-            <a href="#">Solutions</a>
-          </li>
+          {/* <li>
+            <a href="/solutions">Solutions</a>
+          </li> */}
           <li>
             <a href="#">Blog</a>
           </li>
           <li>
-            <a href="#">Contact Us</a>
+            <a href="/contact">Contact Us</a>
           </li>
         </ul>
       </div>

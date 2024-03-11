@@ -34,8 +34,8 @@ const CardContainer = () => {
     };
   return (
     <div className='flex justify-center items-center w-full flex-wrap bg-[#f3f5fa] py-6' style={CardStyle}>
-        {data.map((ele)=>{
-            return <Card icon={ele.icon} heading={ele.heading}/>
+        {data.map((ele, idx)=>{
+            return <Card icon={ele.icon} heading={ele.heading} key={idx}/>
         })}
     </div>
   )
