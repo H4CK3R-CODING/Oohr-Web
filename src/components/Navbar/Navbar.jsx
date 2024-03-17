@@ -152,11 +152,29 @@ const Navbar = () => {
         {hamberger ? <GiHamburgerMenu /> : <RxCross2 />}
       </div>
       <div className="hami">
-        <ul>
-          <li>HOme</li>
-          <li>about</li>
-          <li>phonw</li>
-          <li>contact</li>
+      <ul className="navi flex flex-col list-none justify-center items-center">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/#services" >
+              Services 
+            </a>
+          </li>
+          <li>
+            <a href="/about">
+              About Us 
+            </a>
+          </li>
+          <li>
+            <a href="/domains">Domains</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="/contact">Contact Us</a>
+          </li>
         </ul>
       </div>
     </div>

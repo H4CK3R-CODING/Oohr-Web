@@ -34,3 +34,31 @@ form input ,textarea{
     position: absolute;
     /* z-index: -1; */
 }
+
+
+@media screen and (max-width: 1024px) {
+    #form-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    #address{
+        width: 80vw;
+    }
+    #contact-form form input,textarea{
+        width: 80vw;
+    }
+    .response_map{
+        height: 350px;
+    }
+    iframe{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    #address{
+        width: 90vw;
+    }
+}
+

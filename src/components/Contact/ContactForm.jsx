@@ -21,7 +21,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex items-center justify-center flex-col" data-aos="fade-left" data-aos-duration="1500">
+    <div id="contact-form" className="flex items-center justify-center flex-col" data-aos="fade-left" data-aos-duration="1500">
       <h1 className="text-4xl font-semibold ">Feedback Form</h1>
       <form
         method="post"
