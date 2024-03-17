@@ -1,23 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../css/Navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross2 } from "react-icons/rx";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import { IoMdArrowDropright } from "react-icons/io";
 
 const Navbar = () => {
+  const [hamberger, setHamberger] = useState(true);
+  const changeHamburgerIcon = () => {
+    setHamberger((curr) => {
+      return !curr;
+    });
+    const x = document.querySelector(".hami");
+    x.classList.toggle("ham");
+    console.log(x.classList);
+  };
   return (
     <div className="flex justify-between items-center bg-[#E87461]">
       {/* <div className="w-12 rounded-2xl m-2">
         <img src="./oohrlogo.webp" alt="logo" />
       </div> */}
-      <a href="#" className="w-12 rounded-2xl m-2"><img src="./oohrlogo.webp" alt="logo" /></a>
-      <div>
+      <a href="/" className="w-12 rounded-2xl m-2">
+        <img src="./oohrlogo.webp" alt="logo" />
+      </a>
+      <div id="nav">
         <ul className="navi flex list-none justify-center items-center">
           <li>
             <a href="/">Home</a>
           </li>
           <li>
             <a href="/#services" className="flex items-center justify-center">
-            Services {/* <MdOutlineArrowDropDown /> */}
+              Services {/* <MdOutlineArrowDropDown /> */}
             </a>
             {/* <div className="dropdown_menu">
               <ul>
@@ -129,6 +142,21 @@ const Navbar = () => {
           <li>
             <a href="/contact">Contact Us</a>
           </li>
+        </ul>
+      </div>
+      <div
+        id="hamburger"
+        className="text-3xl text-white cursor-pointer m-4 transition-all duration-300"
+        onClick={changeHamburgerIcon}
+      >
+        {hamberger ? <GiHamburgerMenu /> : <RxCross2 />}
+      </div>
+      <div className="hami">
+        <ul>
+          <li>HOme</li>
+          <li>about</li>
+          <li>phonw</li>
+          <li>contact</li>
         </ul>
       </div>
     </div>

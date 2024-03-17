@@ -49,3 +49,42 @@
   background-color: var(--color-orange);
 }
 
+#hamburger {
+  display: none;
+}
+
+#nav {
+  display: block;
+}
+
+.hami {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #hamburger {
+    display: block;
+    z-index: 100;
+  }
+  #nav {
+    display: none;
+  }
+}
+.ham {
+  display: block;
+  position: absolute;
+  top: 70px;
+  height: fit-content;
+  background-color: #79f07d;
+  width: 100vw;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ham li {
+  padding: 4px;
+  margin: 4px;
+}
+

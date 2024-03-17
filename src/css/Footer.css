@@ -1,0 +1,15 @@
+@media screen and (max-width: 1024px) {
+  #foot_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .foot_content_id {
+    width: 80vw;
+  }
+  .extra_container {
+    width: 80vw;
+  }
+}

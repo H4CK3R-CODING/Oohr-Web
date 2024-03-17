@@ -6,7 +6,7 @@ const Home = () => {
   const [backImg, setBackImg] = useState("./minbg-1.webp");
   return (
     <div>
-      {/* <img id="homeImg" src={`${backImg}`} alt="main_page_image" /> */}
+      {/* <div className="h-[500px] overflow-hidden w-full flex justify-center items-center"><img id="homeImg" src={`${backImg}`} alt="main_page_image" /></div> */}
       <CardContainer />
       <Services/>
     </div>

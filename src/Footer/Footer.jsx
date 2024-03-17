@@ -1,6 +1,7 @@
 import React from "react";
 import FooterCol from "./FooterCol";
 import Socail from "./Socail";
+import "../css/Footer.css";
 
 const Footer = () => {
   const data = [
@@ -23,16 +24,23 @@ const Footer = () => {
       email: "martin_reed@myoohr.com",
     },
   ];
+
   return (
     <div>
-      <div className="bg-[#485664] py-6 flex justify-evenly">
-        {data.map((e,idx) => {
-          return <FooterCol data={e} key={idx}/>;
-        })}
-        <Socail />
+      <div id="foot_content" className="bg-[#485664] p-6 flex justify-evenly">
+          {data.map((e, idx) => {
+            return <div className="foot_content_id " key={idx} ><FooterCol data={e}/></div>;
+          })}
+          <div className="extra_container">
+            <Socail />
+          </div>
       </div>
       <div className="bg-[#3a4753] h-20 flex justify-evenly items-center">
-        <p className="text-white">&copy; Copyright <span className="font-semibold">OOHR INTELLECTUAL RESEARCH.</span> All Rights Reserved</p>
+        <p className="text-white text-center">
+          &copy; Copyright{" "}
+          <span className="font-semibold">OOHR INTELLECTUAL RESEARCH.</span> All
+          Rights Reserved
+        </p>
       </div>
     </div>
   );
