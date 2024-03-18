@@ -88,3 +88,21 @@
   margin: 4px;
 }
 
+/* .nav::before{
+  background: url("../assets/homebg.jpg") no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 500px;
+  z-index: -1;
+} */
+
+/* .nav{
+  background-image: linear-gradient(to right,darkslategray, black)
+} */
+
+.nav {
+  background-image: linear-gradient(to right, #f0cb82, #f0a881);
+}

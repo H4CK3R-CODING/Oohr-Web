@@ -13,7 +13,7 @@ const data = [
           "Our team conducts the Research in multiple databases in the patent database and non-patent literature coverage (journals, articles, scientific literature, product manuals, conference papers, video, image, and many more) around the World.",
           "In this process, All the searched references are manually analyzed, reviewed by a subject matter expert. To accomplish this, we utilize paid software for searching and preparing the best exhaustive report.",
         ],
-        image: "/images/Patent/state-of-art-search.png",
+        image: "./Service/state-of-art-search.jpg",
         list: [
           "Patentability/Novelty Searches",
           "Freedom to Operate Search",
@@ -40,7 +40,7 @@ const data = [
           "Freedom to operate search/clearance search is geo-specific and particularly focuses on the claims of the granted patent. In our search strategy, we target granted patents while simultaneously including pending patent applications, as those may grant in the future can prove a threat to the client’s product. ",
           "We also make sure to include an analysis of WIPO patent applications that have the client’s specific geographical country as a designated country. Our freedom-to-operate/clearance search reports include an in-depth analysis of the claimed elements in the identified relevant prior-arts by our SME’s (subject matter experts). ",
         ],
-        image: "/images/Patent/freedom-to-operate-search.png",
+        image: "./Service/freedom-to-operate-search.jpg",
         list: [
           "Patentability/Novelty Searches",
           "Patent Validity or Invalidity Search",
@@ -67,7 +67,7 @@ const data = [
           "is also known as background art it’s defined as the pieces of evidence already available publicly before any specific or assigned date. Prior art searches is a dedicated search to recognize if there is any evidence that exists, that could believe a patent/application invalid. It can be categorized into three types, based on the purpose of the search, i.e. Novelty/Patentability Search, Medical/Chemical/Biological Searches,  Invalidity Search, and FTO Search.",
           "Our Prior Art Searches and Analytics team uses creative and structured processes and technologies for their domain to provide the best search reports.",
         ],
-        image: "/images/Patent/design-image.png",
+        image: "./Service/prior-art-search.jpg",
         list: [
           "Patentability / Novelty Searches",
           "Freedom to Operate Search",
@@ -104,7 +104,7 @@ const data = [
           "A patent application needs to describe an invention completely such as Title of the invention, Summary of the invention, Abstract, Specifications, Claims, Detailed description of the drawings & Conclusion. Patent Application is a document through which an inventor discloses complete details of his invention and gets exclusive rights to it. ",
           "Our team assists clients in both provisional and non-provisional patent drafting support services in different technological domains",
         ],
-        image: "/images/Patent/patent-drafting-illustrations.png",
+        image: "./Service/patent-drafting-illustrations.jpg",
         list: [
           "Patentability/Novelty Searches",
           "Freedom to Operate Search",
@@ -131,7 +131,7 @@ const data = [
           "is defined as the molecular geometry of a compound. In this search, we focus on finding a similar compound’s chemical structure search in patent and non-patent literature. This is basically conducted to evaluate Patentability, FTO, or validity/ invalidity of the structure. ",
           "Some of the key tools we use for chemical structure searches are – Scientific-Technical Networks (STN), Questel Orbit, SciFinder, ChemSpider, PubChem, WIPO and Sure ChEMBL, etc.  Additionally, our search methodology includes the study of distinctive property and behavior analysis, related background, typical usage, extensive class-based searches, assignee/inventor-based searches, etc.  ",
         ],
-        image: "/images/Patent/chemical-structure-search.png",
+        image: "./Service/chemical-structure-search.jpg",
         list: [
           "Patentability/Novelty Searches",
           "Freedom to Operate Search",
@@ -157,7 +157,7 @@ const data = [
           "A patentability novelty search is also known as novelty search, is conducted before the filing of any patent application to check whether the invention is already available in the public domain. It is also useful for inventors, to know about the unique feature of their invention. This search ensures the inventor that the application won’t refuse during the examination.",
           "If some prior art is found during the search, the inventor either does not file the application and saves money or improvises the invention to file the application further. This patentability novelty search is conducted in different patent and non-patent databases such as written documents, utility models, products, and scientific literature.  ",
         ],
-        image: "",
+        image: "./Service/patentability-novelty-searches.jpg",
         list: [
           "Freedom to Operate Search",
           "Patent Validity or Invalidity Search",
@@ -187,7 +187,7 @@ const data = [
           "By analyzing the patent holdings of competitors/ leading patent filers, their strategies and future products can be fairly identified. Therefore, it helps businesses to identify areas in which competitors/ leading patent filers may pose threat in the future and helps them to refine their strategies and identify possible areas for research and development (R&D). ",
           "We have experts in different technology domains, provide an exhaustive report to the client, which include: market trends, technology leaders, and their IP strategies, IP activity over the years organizing technology in a particular area, White space analysis for future research strategies.",
         ],
-        image: "/images/Patent/patent-landscape.png",
+        image: "./Service/patent-landscape.jpg",
         heading: "PATENT LANDSCAPE & WHITESPACE ANALYSIS",
         list: [
           "Patentability/Novelty Searches",
@@ -222,7 +222,7 @@ const data = [
           "Our team has technical expertise in altogether major fields. We consistently handle inventive matters involving hi-tech, electronics and electrical systems, technology, communication technologies, Robotics, AI, medical devices, consumer lifestyle, biotechnology, bioengineering, chemical, pharmaceutical, automobiles, energy, and mechanical systems.",
         ],
         specialPara: "Technical assistance to IP lawyers",
-        image: "/images/Solutions/hammer-ip-firms.png",
+        image: "./Service/hammer-ip-firms.jpg",
         heading: "TO IP LAW FIRMS",
         listPara: [],
         secondListPara: [],
@@ -240,7 +240,7 @@ const data = [
         ],
         specialPara:
           "Intellectual property asserts are the growth of a company business and guarding them is the first step of success of a company.",
-        image: "/images/Solutions/technology-org-image.png",
+        image: "./Service/technology-org-image.jpg",
         heading: "TO TECHNOLOGY ORGANIZATIONS",
         listPara: [],
         secondListPara: [
@@ -264,7 +264,7 @@ const data = [
         ],
         specialPara:
           "Universities and academies are still behind in patenting their inventions and monetizing their patents, although they have innovative ideas and futuristic inventions",
-        image: "/images/Solutions/to-college-univ-image.png",
+        image: "./Service/to-college-univ-image.jpg",
         heading: "TO COLLEGES AND UNIVERTIES",
         listPara: [
           "Assist in cost-effective ways (initial assistance is completely free)",
@@ -284,7 +284,7 @@ const data = [
         ],
         specialPara:
           "We provide our expertise to other IP firms related to client requirements.",
-        image: "/images/Solutions/ip-consulting-image.png",
+        image: "./Service/ip-consulting-image.jpg",
         heading: "TO IP CONSULTING FIRMS",
         listPara: [
           "Backend technological support in all kinds of searching and report preparation.",
@@ -306,7 +306,7 @@ const data = [
           "*Text from USPTO   Protect your artistic works with experts. ",
         ],
         specialPara: "",
-        image: "/images/Solutions/copyright.png",
+        image: "./Service/copyright.jpg",
         heading: "COPYRIGHT",
         listPara: ["Copyright Filing", "Copyright Responses"],
         secondListPara: [],
@@ -325,7 +325,7 @@ const data = [
           "*Text from WIPO File and protect your design with industry experts.",
         ],
         specialPara: "",
-        image: "/images/Patent/design-image.png",
+        image: "./Service/design-image.jpg",
         heading: "DESIGN PATENT",
         listPara: [
           "Design Search",
@@ -352,7 +352,7 @@ const data = [
           "Nowadays, there are multiple tools and software are available for patent translation that make it easy to translate any word in any language. But every invention contains all the technical definition in it, which make any tool hard to translate. ",
           "A machine translation done by the tool can make a huge difference in its original sense. In machine translation, errors are not limited to a single word but they can even alter the understanding of large excerpts.",
         ],
-        image: "/images/Patent/patent-translation.png",
+        image: "./Service/patent-translation.jpg",
         list: [
           "Patentability/Novelty Searches",
           "Freedom to Operate Search",
@@ -385,7 +385,7 @@ const data = [
           "To get the protection of the inventor’s unique invention, it needs to file in the best manner so the inventor can get its benefits. Patent filing service is a complicated process, in which the applicant/Inventor may need proper assistance from experienced attorneys and experts.",
           "Oohr Intellectual Research has a well-experienced team of USA patent attorneys and Indian patent agents, who always help clients to file their patents most suitable manner. Right now we are only providing patent filing services in the USA and India.",
         ],
-        image: "/images/Patent/patent-filing-service.png",
+        image: "./Service/patent-filing-service.jpg",
         list: [
           "Patentability/Novelty Searches",
           "Freedom to Operate Search",
@@ -417,7 +417,7 @@ const data = [
           "An inventor/applicant gets a granted patent after go-through multiple examinations after filing the patent application.  Once a patent application (Non-provisional) is filed, the patent examiner explores for already available prior art of the filled invention and also notices various other irregularities in the patent/filing documents, etc., based on which the Examiner gives a response to the inventor/applicant. ",
           "An answer by the inventor/applicant to the examiner’s response over the objection or rejections knows as an office action response. It is the responsibility of the inventor/applicant to convince the examiner, either with arguments or with necessary amendments in the filed patent application claims during an Office Action Response. ",
         ],
-        image: "",
+        image: "./Service/office-action-response.jpg",
         list: [
           "Patentability/Novelty Searches",
           "Freedom to Operate Search",
@@ -449,7 +449,7 @@ const data = [
           "is a comprehensive prior art search. It’s conducted after the issuance of a patent either to authenticate the enforceability of a patent’s claims or to revoke claims of a patent.",
           "In this, a search is performed to identify patent or non-patent literature filed or published before the earliest priority date of the subject patent. The search serves as a basis for a legal opinion against infringement or as due diligence prior to licensing, buying, or selling of a patent. ",
         ],
-        image: "",
+        image: "./Service/patent-validity-invalidity-searches.jpg",
         list: [
           "Patentability/Novelty Searches",
           "Freedom to Operate Search",
@@ -480,7 +480,7 @@ const data = [
         para: [
           "Utility Patent drawings or Utility Patent Illustrations are one of the most essential elements of a patent application which representations graphically of an inventive idea submitted by the patent application before the patent office. Utility Patent Drawings typically show parts of a device, assemblies, electric circuits, components of a system, or a flow chart of a process whichever is claimed in Patent.  ",
         ],
-        image: "/images/Patent/patent-utility-design-drawings.png",
+        image: "./Service/patent-utility-design-drawings.jpg",
         list: [
           "Patentability/Novelty Searches",
           "Freedom to Operate Search",
