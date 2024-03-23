@@ -1,0 +1,17 @@
+.codeBlock1 {
+  width: 400px;
+  height: 300px;
+  border-radius: 100%;
+  background: radial-gradient(#e44c31eb, #dcfc4b);
+  opacity: 0.4;
+  filter: blur(4.5rem);
+  /* background-color: #f5fd06; */
+}
+.codeBlock2 {
+  width: 400px;
+  height: 300px;
+  border-radius: 100%;
+  background: radial-gradient(#2537e0cb, #1e919e);
+  opacity: 0.4;
+  filter: blur(4.5rem);
+}

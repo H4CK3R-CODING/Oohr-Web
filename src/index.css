@@ -38,3 +38,9 @@ body {
     height: 75vh;
     z-index: -1;
 } */
+
+.fontstyle {
+  font-family: "Salsa", cursive;
+  font-weight: 800;
+  font-style: normal;
+}

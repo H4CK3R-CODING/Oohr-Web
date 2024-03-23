@@ -6,12 +6,14 @@ const Services = () => {
   return (
     <div
       id="services"
-      className="flex flex-wrap justify-evenly items-center pb-20"
+      className="flex flex-wrap justify-evenly  mt-[5rem] border-lime-50  items-center pb-20 "
       data-aos="fade-right"
       data-aos-offset="300"
       data-aos-easing="ease-in-sine"
     >
-      <h1 className="block w-full text-center mt-6 font-semibold text-4xl">Our Services</h1>
+      <h1 className="block w-full text-center mt-[5rem] font-semibold text-4xl">
+        Our Services
+      </h1>
       {data[0].patents.map((ele, idx) => {
         return <Card data={ele} key={idx} />;
       })}

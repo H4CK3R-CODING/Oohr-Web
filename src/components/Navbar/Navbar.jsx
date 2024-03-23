@@ -5,19 +5,21 @@ import { IoMdArrowDropright } from "react-icons/io";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center bg-[#E87461]">
+    <div className="flex justify-between px-[5rem]  fontstyle items-center bg-[#E87461] border-b-[2px] border-red-700 ">
       {/* <div className="w-12 rounded-2xl m-2">
         <img src="./oohrlogo.webp" alt="logo" />
       </div> */}
-      <a href="#" className="w-12 rounded-2xl m-2"><img src="./oohrlogo.webp" alt="logo" /></a>
-      <div>
+      <a href="#" className="w-12 rounded-2xl   ">
+        <img src="./oohrlogo.webp" alt="logo" />
+      </a>
+      <div className=" text-[1.2rem] flex flex-wrap flex-row text-center font-bold">
         <ul className="navi flex list-none justify-center items-center">
           <li>
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/#services" className="flex items-center justify-center">
-            Services {/* <MdOutlineArrowDropDown /> */}
+            <a href="/services" className="flex items-center justify-center">
+              Services {/* <MdOutlineArrowDropDown /> */}
             </a>
             {/* <div className="dropdown_menu">
               <ul>
