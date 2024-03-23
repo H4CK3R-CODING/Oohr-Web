@@ -1,37 +1,13 @@
 import React from "react";
 import ServicePage from "./ServicePage";
 import AllService from "../../utils/Services.js";
-
+import CardContainer from "../../components/Main/Cards/CardContainer";
+import Services from "../../components/Services/Services";
 export default function Serviceroute() {
   return (
     <div>
-      {AllService[0].patents.map((ele, idx) => {
-        return (
-          <Route
-            path={`${ele.path}`}
-            element={<ServicePage content={ele} />}
-            key={idx}
-          />
-        );
-      })}
-      {AllService[1].solutions.map((ele, idx) => {
-        return (
-          <Route
-            path={`${ele.path}`}
-            element={<ServicePage content={ele} />}
-            key={idx}
-          />
-        );
-      })}
-      {AllService[2].patentDoubleHeading.map((ele, idx) => {
-        return (
-          <Route
-            path={`${ele.path}`}
-            element={<ServicePage content={ele} />}
-            key={idx}
-          />
-        );
-      })}
+      <CardContainer />
+      <Services />
     </div>
   );
 }
