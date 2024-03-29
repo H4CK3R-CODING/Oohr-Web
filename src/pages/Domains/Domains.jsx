@@ -6,7 +6,7 @@ const Domains = () => {
   const {domains} = useDomains();
   return (
     <div>
-      <span className="py-4"><h1 className="py-5 text-center text-2xl font-semibold ">TECHNOLOGY DOMAINS</h1></span>
+      <span className="py-6"><h1 className="py-5 text-center text-4xl font-semibold">TECHNOLOGY DOMAINS</h1></span>
       {Array.from(domains).map((domain, idx) => {
         return <Domain domain={domain} key={idx}/>;
       })}

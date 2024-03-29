@@ -3,11 +3,12 @@ import { FaHandPointRight } from "react-icons/fa";
 
 const ServicePage = ({ content }) => {
   return (
-    <div className="flex flex-col justify-center items-start m-10 p-10">
-      <h1 className="text-[#3d4246] font-bold text-2xl leading-10 my-6">
+    <div className="w-full bg-gradient-to-r from-[#00E3Cd] to-[#32B89C]">
+    <div className=" w-1/2 flex flex-col justify-center items-start m-auto p-10">
+      <h1 className="text-[#455560] font-bold text-5xl text-center leading-10 my-14 m-auto">
         {content.heading}
       </h1>
-      <p className="font-semibold">{content.para}</p>
+      <p className="font-semibold text-[#455560] my-8">{content.para}</p>
       {content.listPara
         ? content.listPara.map((line, idx) => {
             return (
@@ -21,14 +22,23 @@ const ServicePage = ({ content }) => {
           })
         : ""}
       <p>{content.specialPara ? content.specialPara : ""}</p>
-      {content.secHeading ? (<h1 className="text-[#3d4246] font-bold text-2xl leading-10 my-6">{content.secHeading}</h1>) : ""}
-      {content.secHeading ? content.secondPara.map((para,idx)=>{
-        return (
-          <div key={idx} className="font-semibold">
-            {para}
-          </div>
-        );
-      }) : ""}
+      {content.secHeading ? (
+        <h1 className="text-[#455560] font-bold text-2xl leading-10 my-6">
+          {content.secHeading}
+        </h1>
+      ) : (
+        ""
+      )}
+      {content.secHeading
+        ? content.secondPara.map((para, idx) => {
+            return (
+              <div key={idx} className="font-semibold text-[#455560]">
+                {para}
+              </div>
+            );
+          })
+        : ""}
+    </div>
     </div>
   );
 };

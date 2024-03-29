@@ -17,7 +17,7 @@ const Navbar = () => {
   };
   return (
     // bg-[#E87461]
-    <div className="nav flex justify-between items-center bg-[#E87461]">
+    <div className="nav flex justify-between items-center  bg-gradient-to-r from-[#f0cb82] to-[#f0a881]">
       {/* <div className="w-12 rounded-2xl m-2">
         <img src="./oohrlogo.webp" alt="logo" />
       </div> */}
