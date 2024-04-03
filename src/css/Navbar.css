@@ -76,7 +76,8 @@
   position: absolute;
   top: 70px;
   height: fit-content;
-  background-color: #79f07d;
+  /* background-color: #79f07d; */
+  background : linear-gradient(to right,#f0cb82,#f0a881);
   width: 100vw;
   z-index: 100;
   display: flex;
