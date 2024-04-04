@@ -22,7 +22,7 @@ const Navbar = () => {
         <img src="./oohrlogo.webp" alt="logo" />
       </div> */}
       <a href="/" className="w-12 rounded-2xl m-2">
-        <img src="./oohrlogo.webp" alt="logo" />
+        <img src="./oohr.png" alt="logo" />
       </a>
       <div id="nav">
         <ul className="navi flex list-none justify-center items-center">
