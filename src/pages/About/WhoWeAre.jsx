@@ -49,16 +49,14 @@ const WhoWeAre = () => {
           every IP service, and deliver valuable and expert solutions to each
           client for every IP assistance.
         </p>
-        {points.map((point) => {
+        {points.map((point, idx) => {
           return (
-            <>
-              <div className="p-2 flex items-center">
-                <span>
-                  <FaHandPointRight />
-                </span>
-                <span className="px-2">{point}</span>
-              </div>
-            </>
+            <div className="p-2 flex items-center" key={idx}>
+              <span>
+                <FaHandPointRight />
+              </span>
+              <span className="px-2">{point}</span>
+            </div>
           );
         })}
       </div>

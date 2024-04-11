@@ -4,6 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import { IoMdArrowDropright } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [hamberger, setHamberger] = useState(true);
@@ -21,127 +22,172 @@ const Navbar = () => {
       {/* <div className="w-12 rounded-2xl m-2">
         <img src="./oohrlogo.webp" alt="logo" />
       </div> */}
-      <a href="/" className="w-12 rounded-2xl m-2">
+      <Link to="/" className="w-12 rounded-2xl m-2">
         <img src="./oohr.png" alt="logo" />
-      </a>
+      </Link>
       <div id="nav">
         <ul className="navi flex list-none justify-center items-center">
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/#services" className="flex items-center justify-center">
-              Services {/* <MdOutlineArrowDropDown /> */}
-            </a>
-            {/* <div className="dropdown_menu">
+            <Link to="/#services" className="flex items-center justify-center">
+              Services <MdOutlineArrowDropDown />
+            </Link>
+            <div className="dropdown_menu">
               <ul>
                 <li>
-                  <a href="#" className="flex items-center justify-center">
+                  <Link to="#" className="flex items-center justify-center">
                     Patent Services <IoMdArrowDropright />
-                  </a>
+                  </Link>
                   <div className="dropdown_menu1 ">
                     <ul>
                       <li>
-                        <a href="#">Patent Maintenance</a>
+                        <Link to="/patent-maintenance">Patent Maintenance</Link>
                       </li>
                       <li>
-                        <a href="#">Patent Drafting</a>
+                        <Link to="/patent-drafting-illustrations">Patent Drafting</Link>
                       </li>
                       <li>
-                        <a href="#">Infringement Analysis & Claim Charts</a>
+                        <Link to="/infringement-analysis-claim-charts">Infringement Analysis & Claim Charts</Link>
                       </li>
                       <li>
-                        <a href="#">Patent Landscape & Whitespace Analysis</a>
+                        <Link to="/patent-landspace">Patent Landscape & Whitespace Analysis</Link>
                       </li>
                       <li>
-                        <a href="#">Office Action Response</a>
+                        <Link to="/office-action-response">Office Action Response</Link>
                       </li>
                       <li>
-                        <a href="#">Patent Filling Service</a>
+                        <Link to="/patent-filing-service">Patent Filling Service</Link>
                       </li>
                       <li>
-                        <a href="#">Patent Translation</a>
+                        <Link to="/patent-translation">Patent Translation</Link>
                       </li>
                       <li>
-                        <a href="#">Prior Art Searches</a>
+                        <Link to="/prior-art-search">Prior Art Searches</Link>
                       </li>
                       <li>
-                        <a href="#">Patentability/Novelty Searches</a>
+                        <Link to="/patentability-novelty-searches">Patentability/Novelty Searches</Link>
                       </li>
                       <li>
-                        <a href="#">Freedom To Operate Search</a>
+                        <Link to="/freedom-to-operate-search">Freedom To Operate Search</Link>
                       </li>
                       <li>
-                        <a href="#">Patent Validity/invalidity Searches</a>
+                        <Link to="/patent-validity-invalidity-searches">Patent Validity/invalidity Searches</Link>
                       </li>
                       <li>
-                        <a href="#">State Of Art Search</a>
+                        <Link to="/state-art-search">State Of Art Search</Link>
                       </li>
                       <li>
-                        <a href="#">Chemical Structure Search</a>
+                        <Link to="/chemical-structure-search">Chemical Structure Search</Link>
                       </li>
                       <li>
-                        <a href="#">Biological Sequence Search</a>
+                        <Link to="/bio-sequence-search">Biological Sequence Search</Link>
                       </li>
                       <li>
-                        <a href="#">Patent Utility/Design Drawings</a>
+                        <Link to="/patent-utility-design-drawings">Patent Utility/Design Drawings</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
                 <li>
-                  <a href="#" className="flex items-center justify-center">
-                    Domains <IoMdArrowDropright />
-                  </a>
+                  <Link to="#" className="flex items-center justify-center">
+                    Solutions <IoMdArrowDropright />
+                  </Link>
                   <div className="dropdown_menu1">
                     <ul>
                       <li>
-                        <a href="#">Trademarks</a>
+                        <Link to="/ip-firms">TO IP LAW FIRMS</Link>
                       </li>
                       <li>
-                        <a href="#">Design</a>
+                        <Link to="/technology-org">TO TECHNOLOGY ORGANIZATIONS</Link>
                       </li>
                       <li>
-                        <a href="#">Copyright</a>
+                        <Link to="/to-college-univ">TO COLLEGES AND UNIVERTIES</Link>
+                      </li>
+                      <li>
+                        <Link to="/ip-consulting">TO IP CONSULTING FIRMS</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <Link to="#" className="flex items-center justify-center">
+                    Domains <IoMdArrowDropright />
+                  </Link>
+                  <div className="dropdown_menu1">
+                    <ul>
+                      <li>
+                        <Link to="#">Trademarks</Link>
+                      </li>
+                      <li>
+                        <Link to="/design">Design</Link>
+                      </li>
+                      <li>
+                        <Link to="/copyright">Copyright</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <Link to="#" className="flex items-center justify-center">
+                  Indian Patent <IoMdArrowDropright />
+                  </Link>
+                  <div className="dropdown_menu1">
+                    <ul>
+                      <li>
+                        <Link to="#">Secure Your Invention in India</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Design Patent Application</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Opposition Searches</Link>
+                      </li>
+                      <li>
+                        <Link to="#">Licensing & Litigation Support</Link>
+                      </li>
+                      <li>
+                        <Link to="#">India Entry Strategy</Link>
                       </li>
                     </ul>
                   </div>
                 </li>
               </ul>
-            </div> */}
+            </div>
           </li>
           <li>
-            <a href="/about" className="flex items-center justify-center">
+            <Link to="/about" className="flex items-center justify-center">
               About Us {/* <MdOutlineArrowDropDown /> */}
-            </a>
+            </Link>
             {/* <div className="dropdown_menu">
               <ul>
                 <li>
-                  <a href="#">Who We Are</a>
+                  <Link to="#">Who We Are</Link>
                 </li>
                 <li>
-                  <a href="#">Our Team</a>
+                  <Link to="#">Our Team</Link>
                 </li>
                 <li>
-                  <a href="#">Why us</a>
+                  <Link to="#">Why us</Link>
                 </li>
                 <li>
-                  <a href="#">Careers</a>
+                  <Link to="#">Careers</Link>
                 </li>
               </ul>
             </div> */}
           </li>
           <li>
-            <a href="/domains">Domains</a>
+            <Link to="/domains">Domains</Link>
           </li>
           {/* <li>
-            <a href="/solutions">Solutions</a>
+            <Link to="/solutions">Solutions</Link>
           </li> */}
           <li>
-            <a href="#">Blog</a>
+            <Link to="#">Blog</Link>
           </li>
           <li>
-            <a href="/contact">Contact Us</a>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </div>
@@ -155,26 +201,26 @@ const Navbar = () => {
       <div className="hami">
       <ul className="navi flex flex-col list-none justify-center items-center">
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/#services" >
+            <Link to="/#services" >
               Services 
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about">
+            <Link to="/about">
               About Us 
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/domains">Domains</a>
+            <Link to="/domains">Domains</Link>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <Link to="#">Blog</Link>
           </li>
           <li>
-            <a href="/contact">Contact Us</a>
+            <Link to="/contact">Contact Us</Link>
           </li>
         </ul>
       </div>

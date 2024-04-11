@@ -2,6 +2,36 @@ const data = [
   {
     patents: [
       {
+        path: "/patent-maintenance",
+        heading: "PATENT MAINTENANCE",
+        brief:
+          "The life of a patent is 20 years from the date of filing the patent application...",
+        para: [
+          "The life of a patent is 20 years from the date of filing the patent application. Once a patent is granted there are multiple steps that need to follow by the inventor/ applicant to maintain it alive. The lifeline of a granted patent is regular maintenance and renewal of the application on time. Missing the Patent maintenance timeline means abandoning the Patent before its expiry.",
+          "The patent maintenance fee and renewal process are different according to the jurisdictions. And it also depends upon the nature of the applicant. In India, the first patent renewal fees or the maintenance fees should be paid, once a grant is given to a patent, after which the applicant should pay the grant fee including the years since filing a patent took to receive the grant, but not for the first two years.",
+          "In the US, the patent maintenance fee format is different from annuity fees available in patent offices such as India and Europe. The applicant has to pay a grant fee at the time of grant of the patent application. Once the patent is granted then the applicant has to pay maintenance fees only three times; at 3.5 years, 7.5 years, and 11.5 years from the date of grant.",
+          "Six month grace period is available to pay the maintenance fees, i.e. 4 years, 8 years, and 12 years. However, the applicant has to pay a penalty for the late payment within six months. The USPTO provides different fee structures for a different types of applicants.",
+          "USPTO categorizes the applicant into three, namely large entity, small entity, and micro-entity. Eligibility for these categories is defined by USPTO. The penalty fee for late payment has to be paid along with the respective maintenance fee within the six months.",
+        ],
+        image: "./Service/state-of-art-search.jpg",
+        list: [
+          "Patentability/Novelty Searches",
+          "Freedom to Operate Search",
+          "Patent Validity or Invalidity Search",
+          "Chemical Structure Search",
+          "Biological Sequence Search",
+          "Patent Drafting & Illustrations",
+          "Office Action Response",
+          "Patent Maintenance",
+          "Infringement Analysis & Claim Charts",
+          "Patent Filing Service",
+          "Patent Drawings",
+          "Patent Landscape & Whitespace Analysis",
+          "Patent Translation",
+        ],
+        listPara: [],
+      },
+      {
         path: "/state-art-search",
         heading: "STATE OF ART SEARCH",
         brief:
@@ -254,6 +284,31 @@ const data = [
           "We provide Technology Organizations IP-Technology-Business Insights quickly and comprehensively so that you can: ",
       },
       {
+        path: "/infringement-analysis-claim-charts",
+        brief:
+          "Patent Infringement Analysis Claim Charts necessitates, while some organization commences producing...",
+        para: [
+          "Patent Infringement Analysis Claim Charts necessitates, while some organization commences producing, marketing, or utilizing the patented product without taking permission or license from the patent inventor or assignee. The Patent Infringement Analysis Claim Charts Searches are performed to find similar product existence in the market using the same technology.",
+          "We assist our clients to find infringement evidence by searching for specific products related to patent claim’s feature.",
+          "There are different ways another party may infringe on the patent",
+        ],
+        specialPara:
+          "Universities and academies are still behind in patenting their inventions and monetizing their patents, although they have innovative ideas and futuristic inventions",
+        image: "./Service/to-college-univ-image.jpg",
+        heading: "INFRINGEMENT ANALYSIS & CLAIM CHARTS",
+        secHeading: "Claim Chart/ Evidence of Use (EOU) :",
+        listPara: [
+          "Direct Infringement: This occurs when a product covered by a patent is manufactured without permission.",
+          "Indirect Infringement: An indirect infringer may induce infringement by encouraging or aiding another in infringing a patent.",
+          "Contributory Infringement: This occurs when a party supplies a direct infringer with a part that has no substantial non-infringing use.",
+          "Literal Infringement: This exists if there is a direct correspondence between the words in the patent claims and the infringing device.",
+        ],
+        secondPara: [
+          "Evidence of Use (EoU)/Claim Charting helps the client to identify potentially infringing products in the marketplace. Our Claim charts comprise a mapping of claim elements to specific features of recognized infringing products and services and also present an indication of the intensity of patent Infringement Analysis Claim Charts.",
+        ],
+        spPara: "",
+      },
+      {
         path: "/to-college-univ",
         brief:
           "College students always have new inventions and some futuristic ideas...",
@@ -382,8 +437,7 @@ const data = [
         heading: "PATENT FILING SERVICE",
         secHeading: "WHY WE?",
         para: [
-          "To get the protection of the inventor’s unique invention, it needs to file in the best manner so the inventor can get its benefits. Patent filing service is a complicated process, in which the applicant/Inventor may need proper assistance from experienced attorneys and experts.",
-          "Oohr Intellectual Research has a well-experienced team of USA patent attorneys and Indian patent agents, who always help clients to file their patents most suitable manner. Right now we are only providing patent filing services in the USA and India.",
+          "Our patent filing service streamlines the process for transforming your ideas into secured intellectual property. We offer comprehensive support from patent searches to application drafting, ensuring strong protection for your inventions. Whether a seasoned pro or a patent newcomer, we provide personalized guidance to navigate the complexities of patent law and safeguard your future."
         ],
         image: "./Service/patent-filing-service.jpg",
         list: [
@@ -443,7 +497,7 @@ const data = [
         path: "/patent-validity-invalidity-searches",
         brief:
           "is a comprehensive prior art search. It’s conducted after the issuance of...",
-        heading: "PATENT VALIDITY / INVALIDITY SEARCHES",
+        heading: "PATENT VALIDITY/INVALIDITY SEARCHES",
         secHeading: "HOW WE ASSIST",
         para: [
           "is a comprehensive prior art search. It’s conducted after the issuance of a patent either to authenticate the enforceability of a patent’s claims or to revoke claims of a patent.",

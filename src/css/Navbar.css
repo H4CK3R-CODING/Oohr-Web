@@ -24,7 +24,8 @@
   position: absolute;
   left: 0;
   top: 100%;
-  background-color: var(--color-orange);
+  background-color: #f0a881;
+  /* background: linear-gradient(to bottom,#f0cb82,#f0a881); */
   width: fit-content;
 }
 
@@ -46,7 +47,8 @@
   position: absolute;
   left: 100%;
   top: 0;
-  background-color: var(--color-orange);
+  /* background: linear-gradient(to bottom,#f0cb82,#f0a881); */
+  background-color: #f0a881;
 }
 
 #hamburger {
