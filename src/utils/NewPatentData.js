@@ -59,12 +59,12 @@ const PatentData = [
         para: "Our Market Research Damage Study analyzes market disruptions (like recessions or new tech) to help you make smart decisions and stay ahead of the curve. Get actionable insights to thrive in any market",
         image: "",
       },
-      {
-        path: "/eou-charts",
-        heading: "EOU Charts",
-        para: "",
-        image: "",
-      },
+      // {
+      //   path: "/eou-charts",
+      //   heading: "EOU Charts",
+      //   para: "",
+      //   image: "",
+      // },
       {
         path: "/infringement-contentions",
         heading: "Infringement Contentions",

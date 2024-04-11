@@ -352,6 +352,22 @@ const data = [
         spPara: "",
       },
       {
+        path: "/trademark",
+        brief:
+          "Artistic, literary, or intellectually created works, such as novels, music...",
+        para: [
+          "A Trademarks can be any word, phrase, symbol, design, or combination of these things that identifies your goods or services. It’s how customers recognize you in the marketplace and distinguish you from your competitors.",
+          "IP Experts and professionals need to protect your brand and business at every step. Services we provide in Trademark Protections.",
+          "*Text from USPTO",
+        ],
+        specialPara: "",
+        image: "./Service/copyright.jpg",
+        heading: "TRADEMARK",
+        listPara: ["Trademark Searches", "Trademark Filing","Examination Report Reply","Preparing Counter-Statement","Preparing Opposition","Brand Watch","Evidence","Rectification","Hearing","TM-M filing"],
+        secondListPara: [],
+        spPara: "",
+      },
+      {
         path: "/copyright",
         brief:
           "Artistic, literary, or intellectually created works, such as novels, music...",

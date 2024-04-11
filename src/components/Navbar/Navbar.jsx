@@ -40,7 +40,7 @@ const Navbar = () => {
                   <Link to="#" className="flex items-center justify-center">
                     Patent Services <IoMdArrowDropright />
                   </Link>
-                  <div className="dropdown_menu1 ">
+                  <div className="dropdown_menu1">
                     <ul>
                       <li>
                         <Link to="/patent-maintenance">Patent Maintenance</Link>
@@ -113,12 +113,200 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link to="#" className="flex items-center justify-center">
-                    Domains <IoMdArrowDropright />
+                  Indian Patent <IoMdArrowDropright />
                   </Link>
                   <div className="dropdown_menu1">
                     <ul>
                       <li>
-                        <Link to="#">Trademarks</Link>
+                        <Link to="/secure-your-invention-in-india">Secure Your Invention in India</Link>
+                      </li>
+                      <li>
+                        <Link to="/design-patent-application">Design Patent Application</Link>
+                      </li>
+                      <li>
+                        <Link to="/opposition-searches">Opposition Searches</Link>
+                      </li>
+                      <li>
+                        <Link to="/licensing-litigation-support">Licensing & Litigation Support</Link>
+                      </li>
+                      <li>
+                        <Link to="/india-entry-strategy">India Entry Strategy</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <Link to="#" className="flex items-center justify-center">
+                  Patent Litigation<IoMdArrowDropright />
+                  </Link>
+                  <div className="dropdown_menu1">
+                    <ul>
+                      <li>
+                        <Link to="/patent-portfolio-ranking">Patent Portfolio Ranking</Link>
+                      </li>
+                      <li>
+                        <Link to="/patent-due-diligence">Patent Due Diligence</Link>
+                      </li>
+                      <li>
+                        <Link to="/licensing-support">Licensing Support</Link>
+                      </li>
+                      <li>
+                        <Link to="/market-research-damage-study">Market Research Damage Study</Link>
+                      </li>
+                      <li>
+                        <Link to="/infringement-contentions">Infringement Contentions</Link>
+                      </li>
+                      <li>
+                        <Link to="/source-code-review">Source Code Review</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <Link to="#" className="flex items-center justify-center">
+                  Patent Management <IoMdArrowDropright />
+                  </Link>
+                  <div className="dropdown_menu1">
+                    <ul>
+                      <li>
+                        <Link to="/patent-proofreading">Patent Proofreading</Link>
+                      </li>
+                      <li>
+                        <Link to="/remote-patent-docketing">Remote Patent Docketing</Link>
+                      </li>
+                      <li>
+                        <Link to="/file-history-analysis">File History Analysis</Link>
+                      </li>
+                      <li>
+                        <Link to="/ids-management">IDS Management</Link>
+                      </li>
+                      <li>
+                        <Link to="/data-verification">Data Verification</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <Link to="#" className="flex items-center justify-center">
+                  Trademark <IoMdArrowDropright />
+                  </Link>
+                  <div className="dropdown_menu1">
+                    <ul>
+                      <li>
+                        <Link to="/trademark-filing">Trademark Filing</Link>
+                      </li>
+                      <li>
+                        <Link to="/trademark-portfolio-analysis">Trademark Portfolio Analysis</Link>
+                      </li>
+                      <li>
+                        <Link to="/trademark-monitoring">Trademark Monitoring</Link>
+                      </li>
+                      <li>
+                        <Link to="/trademark-search">Trademark Search</Link>
+                      </li>
+                      <li>
+                        <Link to="/trademark-registration">Trademark Registration</Link>
+                      </li>
+                      <li>
+                        <Link to="/trademark-opposition">Trademark Opposition</Link>
+                      </li>
+                      <li>
+                        <Link to="/trademark-renewal">Trademark Renewal</Link>
+                      </li>
+                      <li>
+                        <Link to="/trademark-litigation-enforcement">Trademark Litigation/Enforcement</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <Link to="#" className="flex items-center justify-center">
+                  Contract Lifecycle Management <IoMdArrowDropright />
+                  </Link>
+                  <div className="dropdown_menu1">
+                    <ul>
+                      <li>
+                        <Link to="/contract-drafting-creation">Contract Drafting and Creation</Link>
+                      </li>
+                      <li>
+                        <Link to="/contract-negotiation-review">Contract Negotiation and Review</Link>
+                      </li>
+                      <li>
+                        <Link to="/contract-execution-management">Contract Execution and Management</Link>
+                      </li>
+                      <li>
+                        <Link to="/contract-compliance-monitoring">Contract Compliance and Monitoring</Link>
+                      </li>
+                      <li>
+                        <Link to="/contract-renewal-optimization">Contract Renewal and Optimization</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <Link to="#" className="flex items-center justify-center">
+                  Legal Documentation Service <IoMdArrowDropright />
+                  </Link>
+                  <div className="dropdown_menu1">
+                    <ul>
+                      <li>
+                        <Link to="/legal-document-drafting">Legal Document Drafting</Link>
+                      </li>
+                      <li>
+                        <Link to="/drafting-legal-notice">Drafting of Legal Notice</Link>
+                      </li>
+                      <li>
+                        <Link to="/commercial-litigation">Commercial Litigation</Link>
+                      </li>
+                      <li>
+                        <Link to="/commercial-law-advisory">Commercial Law Advisory</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <Link to="#" className="flex items-center justify-center">
+                  ParalegalSupport <IoMdArrowDropright />
+                  </Link>
+                  <div className="dropdown_menu1">
+                    <ul>
+                      <li>
+                        <Link to="/patent-trademark-docketing">Patent and Trademark docketing</Link>
+                      </li>
+                      <li>
+                        <Link to="/india-patent-trademark-prosecution">Prosecution Support</Link>
+                      </li>
+                      <li>
+                        <Link to="/pta-pte-us-patents">PTA/PTE for US patents</Link>
+                      </li>
+                      <li>
+                        <Link to="/ids-management">IDS Management</Link>
+                      </li>
+                      <li>
+                        <Link to="/recordation">Recordation</Link>
+                      </li>
+                      <li>
+                        <Link to="/proofreading">Proofreading</Link>
+                      </li>
+                      <li>
+                        <Link to="/data-verification">Data verification</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <Link to="/#services" className="flex items-center justify-center">
+              Other IP Services <MdOutlineArrowDropDown />
+            </Link>
+            <div className="dropdown_menu">
+              <ul>
+              <li>
+                  <ul>
+                      <li>
+                        <Link to="/trademark">Trademarks</Link>
                       </li>
                       <li>
                         <Link to="/design">Design</Link>
@@ -127,31 +315,6 @@ const Navbar = () => {
                         <Link to="/copyright">Copyright</Link>
                       </li>
                     </ul>
-                  </div>
-                </li>
-                <li>
-                  <Link to="#" className="flex items-center justify-center">
-                  Indian Patent <IoMdArrowDropright />
-                  </Link>
-                  <div className="dropdown_menu1">
-                    <ul>
-                      <li>
-                        <Link to="#">Secure Your Invention in India</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Design Patent Application</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Opposition Searches</Link>
-                      </li>
-                      <li>
-                        <Link to="#">Licensing & Litigation Support</Link>
-                      </li>
-                      <li>
-                        <Link to="#">India Entry Strategy</Link>
-                      </li>
-                    </ul>
-                  </div>
                 </li>
               </ul>
             </div>
@@ -205,7 +368,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/#services" >
-              Services 
+              Services <MdOutlineArrowDropDown />
             </Link>
           </li>
           <li>
