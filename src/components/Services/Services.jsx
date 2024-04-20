@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import data from "../../utils/Services";
+import Card1 from "./Card1";
 
 const Services = () => {
   return (
@@ -12,6 +13,9 @@ const Services = () => {
       data-aos-easing="ease-in-sine"
     >
       <h1 className="block w-full text-center mt-6 font-semibold text-4xl">Our Services</h1>
+      {data[0].patents.map((ele, idx) => {
+        return <Card1 data={ele} key={idx} />;
+      })}
       {data[0].patents.map((ele, idx) => {
         return <Card data={ele} key={idx} />;
       })}

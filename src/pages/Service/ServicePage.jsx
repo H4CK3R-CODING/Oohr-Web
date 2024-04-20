@@ -3,13 +3,13 @@ import { FaHandPointRight } from "react-icons/fa";
 
 const ServicePage = ({ content }) => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-[#e0efff]">
       {/* bg-gradient-to-r from-[#00E3Cd] to-[#32B89C] */}
     <div className=" w-1/2 flex flex-col justify-center items-start m-auto p-10">
-      <h1 className="text-[#455560] font-bold text-5xl text-center leading-10 my-14 m-auto">
+      <h1 className="text-[#e05133] font-bold text-5xl text-center leading-10 my-14 m-auto">
         {content.heading}
       </h1>
-      <p className="font-semibold text-[#455560] my-8">{content.para.map((ele,idx)=>{
+      <p className="font-semibold text-[#8a8aa3] my-8">{content.para.map((ele,idx)=>{
         return (<div className="my-2 py-2" key={idx}>
           {ele}
         </div>)

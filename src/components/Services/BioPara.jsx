@@ -5,7 +5,7 @@ const BioPara = ({ para }) => {
   return (
     <div className="my-4 w-[80vw]">
       <h1 className="text-2xl font-semibold">{para.heading}</h1>
-      <p className="mt-4 italic">{para.para}</p>
+      <p className="mt-4">{para.para}</p>
       {para.secheading ? (
         <h1 className="text-lg mt-4 font-semibold">{para.secheading}</h1>
       ) : (
