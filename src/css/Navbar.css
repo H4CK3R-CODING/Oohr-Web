@@ -28,7 +28,7 @@
   position: absolute;
   left: 0;
   top: 100%;
-  background-color: #f0a881;
+  background-color: #37517e;
   /* background: linear-gradient(to bottom,#f0cb82,#f0a881); */
   width: fit-content;
 }
@@ -52,7 +52,7 @@
   left: 100%;
   top: 0;
   /* background: linear-gradient(to bottom,#f0cb82,#f0a881); */
-  background-color: #f0a881;
+  background-color: #37517e;
 }
 
 .dropdown_menu2{
