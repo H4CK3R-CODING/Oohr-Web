@@ -54,7 +54,7 @@ const BiologicalSequence = () => {
   return (
     <>
       {data.map((ele,idx)=>{
-        return <div className='flex justify-center'><BioPara para={ele} key={idx}/></div>
+        return <div className='flex justify-center bg-[#e0efff]'><BioPara para={ele} key={idx}/></div>
       })}
     </>
   )
