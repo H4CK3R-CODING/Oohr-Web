@@ -23,7 +23,7 @@ const Navbar = () => {
       {/* <div className="w-12 rounded-2xl m-2">
         <img src="./oohrlogo.webp" alt="logo" />
       </div> */}
-      <Link to="/" className="w-12 rounded-2xl m-2">
+      <Link to="/" className="w-24 rounded-2xl m-2">
         <img src="./oohr.png" alt="logo" />
       </Link>
       <div id="nav">

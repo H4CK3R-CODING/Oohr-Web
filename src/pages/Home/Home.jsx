@@ -3,6 +3,7 @@ import CardContainer from "../../components/Main/Cards/CardContainer";
 import Services from "../../components/Services/Services";
 import Section2 from "../../components/Main/Section2/Section2";
 import CoreValues from "../../components/Main/CoreValues/CoreValues";
+import SolutionOffering from "../../components/SolutionOffering/SolutionOffering";
 
 const Home = () => {
   const [backImg, setBackImg] = useState("./homebg.jpg");
@@ -31,6 +32,7 @@ const Home = () => {
         <Section2/>
       </div>
       <CoreValues/>
+      <SolutionOffering/>
       {/* <Services/> */}
     </div>
   );
