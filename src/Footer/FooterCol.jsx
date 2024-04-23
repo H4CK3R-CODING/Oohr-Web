@@ -11,19 +11,19 @@ const FooterCol = ({data}) => {
         <div className="text-3xl m-2 text-sky-500">
           <CiLocationOn />
         </div>
-        <p className="text-white">{data.location}</p>
+        <p className="text-white cursor-pointer"><a target="_blank" href={`${data.gmap}`}>{data.location}</a></p>
       </div>
       <div className="flex items-center">
         <div className="text-3xl m-2 text-sky-500">
           <MdOutlineEmail />
         </div>
-        <p className="text-white">{data.email}</p>
+        <p className="text-white cursor-pointer"><a target="_blank" href={`mailto:${data.email}`}>{data.email}</a></p>
       </div>
       <div className="flex items-center">
         <div className="text-3xl m-2 text-sky-500">
           <IoCallOutline />
         </div>
-        <p className="text-white">{data.phone}</p>
+        <p className="text-white cursor-pointer"><a target="_blank" href={`tel:${data.phone}`}>{data.phone}</a></p>
       </div>
     </div>
   );

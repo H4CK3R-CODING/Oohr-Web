@@ -94,7 +94,7 @@ const data = [
         brief:
           "Our Prior Art Searches and Analytics team uses creative and structured...",
         para: [
-          "is also known as background art it’s defined as the pieces of evidence already available publicly before any specific or assigned date. Prior art searches is a dedicated search to recognize if there is any evidence that exists, that could believe a patent/application invalid. It can be categorized into three types, based on the purpose of the search, i.e. Novelty/Patentability Search, Medical/Chemical/Biological Searches,  Invalidity Search, and FTO Search.",
+          "Is also known as background art it’s defined as the pieces of evidence already available publicly before any specific or assigned date. Prior art searches is a dedicated search to recognize if there is any evidence that exists, that could believe a patent/application invalid. It can be categorized into three types, based on the purpose of the search, i.e. Novelty/Patentability Search, Medical/Chemical/Biological Searches,  Invalidity Search, and FTO Search.",
           "Our Prior Art Searches and Analytics team uses creative and structured processes and technologies for their domain to provide the best search reports.",
         ],
         image: "./Service/prior-art-search.jpg",
@@ -158,7 +158,7 @@ const data = [
         brief:
           "Some of the key tools we use for chemical structure searches...",
         para: [
-          "is defined as the molecular geometry of a compound. In this search, we focus on finding a similar compound’s chemical structure search in patent and non-patent literature. This is basically conducted to evaluate Patentability, FTO, or validity/ invalidity of the structure. ",
+          "Is defined as the molecular geometry of a compound. In this search, we focus on finding a similar compound’s chemical structure search in patent and non-patent literature. This is basically conducted to evaluate Patentability, FTO, or validity/ invalidity of the structure. ",
           "Some of the key tools we use for chemical structure searches are – Scientific-Technical Networks (STN), Questel Orbit, SciFinder, ChemSpider, PubChem, WIPO and Sure ChEMBL, etc.  Additionally, our search methodology includes the study of distinctive property and behavior analysis, related background, typical usage, extensive class-based searches, assignee/inventor-based searches, etc.  ",
         ],
         image: "./Service/chemical-structure-search.jpg",
@@ -516,7 +516,7 @@ const data = [
         heading: "PATENT VALIDITY/INVALIDITY SEARCHES",
         secHeading: "HOW WE ASSIST",
         para: [
-          "is a comprehensive prior art search. It’s conducted after the issuance of a patent either to authenticate the enforceability of a patent’s claims or to revoke claims of a patent.",
+          "Is a comprehensive prior art search. It’s conducted after the issuance of a patent either to authenticate the enforceability of a patent’s claims or to revoke claims of a patent.",
           "In this, a search is performed to identify patent or non-patent literature filed or published before the earliest priority date of the subject patent. The search serves as a basis for a legal opinion against infringement or as due diligence prior to licensing, buying, or selling of a patent. ",
         ],
         image: "./Service/patent-validity-invalidity-searches.jpg",
