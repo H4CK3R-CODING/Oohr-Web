@@ -19,15 +19,15 @@ const Home = () => {
             <p className="text-lg text-white font-semibold sm: mt-4 md:">PROVIDING BEST PATENT PROSECUTION AND LITIGATION SERVICES</p>
           </div>
         </div> */}
-        <div className="bg-[#37517e] h-[700px] flex items-center"> 
+        <div className="flex flex-col bg-[#37517e] sm:flex-row lg:h-[600px] items-center"> 
           <div className="w-1/2 flex justify-center items-center p-8">
-            <div className="p-8">
-              <h1 className="text-white font-bold text-4xl my-2">HELPING COMPANIES NAVIGATE CHANGE.</h1>
+            <div className="p-2 sm:p-8">
+              <h1 className="w-[90vw] text-white font-bold text-4xl my-2 sm:w-1/2">HELPING COMPANIES NAVIGATE CHANGE.</h1>
               <h2 className="text-[#afb9cb] text-xl font-semibold my-2">PROVIDING BEST PATENT PROSECUTION AND LITIGATION SERVICES</h2>
               {/* <button className="text-white font-semibold bg-[#47b2e4] p-2 rounded-lg" onClick={()=>{navigate("/contact")}}>Contact US</button> */}
             </div>
           </div>
-          <img className="w-1/3 animate-bounce" src="./hero-img.png" alt="img" />
+          <img className="w-[90vw] sm:w-1/3 animate-bounce" src="./hero-img.png" alt="img" />
         </div>
         <div className="bg-[#e0efff] h-24 flex justify-center items-center">
           <marquee scrollamount="10"><img className="h-20" src="./oohr.png" alt="img-error" /></marquee>

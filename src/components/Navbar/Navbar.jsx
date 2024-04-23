@@ -33,7 +33,7 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/#services" className="flex items-center justify-center">
+            <Link className="flex items-center justify-center">
               Services <MdOutlineArrowDropDown />
             </Link>
             <div className="dropdown_menu">
@@ -300,7 +300,7 @@ const Navbar = () => {
             </div>
           </li>
           <li>
-            <Link to="/#services" className="flex items-center justify-center">
+            <Link className="flex items-center justify-center">
               Other IP Services <MdOutlineArrowDropDown />
             </Link>
             <div className="dropdown_menu">
