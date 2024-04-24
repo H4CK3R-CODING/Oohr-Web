@@ -365,9 +365,9 @@ const Navbar = () => {
           <li>
             <Link to="/domains">Domains</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="#">Blog</Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/contact">Contact Us</Link>
           </li>

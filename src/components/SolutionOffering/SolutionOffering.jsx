@@ -13,7 +13,7 @@ LAWFIRMS`,
       backimg: "./SolutionOffering/law2.jpg",
       content:
         "We strengthen your Services with our vast Technology Expertise and IP experience – Get your Searches, Drafting, Proof Reading, Illustrations ….",
-      link: "/to_ip_lawfirms",
+      link: "/ip-firms",
     },
     {
       heading: `TO TECHNOLOGY
@@ -21,14 +21,14 @@ ORGANIZATIONS`,
       backimg: "./SolutionOffering/tech.jpg",
       content:
         "Services -Technology Landscapes & Insights, White space analysis, FTO, Infringement Analysis, Rapid Novelty Searches, and IP Admin Services ….",
-      link: "/to_tech_organization",
+      link: "/technology-org",
     },
     {
       heading: `TO IP CONSULTINGFIRMS`,
       backimg: "./SolutionOffering/consulting.jpg",
       content:
         "We provide our help and assistance to other IP consulting companies in managing their IP projects, and to produce a variety of patent and technology ….",
-      link: "/to_ip_consulting",
+      link: "/ip-consulting",
     },
     {
       heading: `TO COLLEGES AND
@@ -36,7 +36,7 @@ ORGANIZATIONS`,
       backimg: "./SolutionOffering/uni.jpg",
       content:
         "College students always have new inventions and some futuristic ideas. We provide our support to Patent Monetization Services, Licensing Support ….",
-      link: "/to_colleges_universities",
+      link: "/to-college-univ",
     },
   ];
 

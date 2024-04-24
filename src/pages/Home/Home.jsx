@@ -37,7 +37,7 @@ const Home = () => {
         <Section2/>
       </div>
       <CoreValues/>
-      {/* <SolutionOffering/> */}
+      <SolutionOffering/>
       {/* <Services/> */}
     </div>
   );
